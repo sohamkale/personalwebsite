@@ -33,7 +33,7 @@ const Home = () => {
                         .changeDelay(40)
                         .pauseFor(1500)
                         .deleteAll()
-                        .typeString('I am a Solution Analyst at Deloitte.')
+                        .typeString('I am a Frontend Software Developer at Ikigai Labs.')
                         .pauseFor(1500)
                         .deleteAll()
                         .callFunction(() => {

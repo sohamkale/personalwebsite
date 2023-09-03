@@ -13,13 +13,13 @@ const Resume = () => {
     const [url, setUrl] = useState(null);
     var resumeRef = storageRef.child('Resume/space.jpg');
     useEffect (() => {
-        storage.ref(`Soham/`).child(`Resume-AWS-pic.png`).getDownloadURL().then(url => {
+        storage.ref(`Soham/`).child(`Resume-latest.png`).getDownloadURL().then(url => {
             setUrl(url);
         })
     }, [])
 
     const onCLickDownload = () => {
-       window.open("https://drive.google.com/file/d/1JwusJNMQQ5Ppn8mfpEoPU3dVL5gR5XDU/view?usp=sharing");
+       window.open("https://drive.google.com/file/d/1oUAJ5Oo6TbDTZJlWdQYvjpR10pfzFfsL/view?usp=sharing");
     }
     if(isMobile){
        return(

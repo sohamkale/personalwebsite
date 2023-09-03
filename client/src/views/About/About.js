@@ -52,8 +52,9 @@ const About = (props) => {
             <br />
             <h4 className="headStyle">About Me</h4>
             <Card.Body className="pStyle">
-              I am Soham Kale. I am currently working as a Solution Analyst at
-              Deloitte. I graduated from University of Florida, Gainesville, FL,
+              I am Soham Kale. I am currently working as a Frontend Software Engineer at
+              Ikigai Labs. I also worked as a solution analyst at Deloitte before joining Ikigai Labs. 
+              I graduated from University of Florida, Gainesville, FL,
               with a Bachelors' degree in Computer Science. I also graduated
               with an Associates in Arts degree in Computer Science and an
               honors certificate from Valencia college, Orlando, FL. As part of
@@ -94,12 +95,35 @@ const About = (props) => {
         <div className="expContainer expContainerRightAligned bg-dark eduFont border-bottom">
           <h4 className="text-center">Experience</h4>
           <div className="">
+          <ul>
+              <b>
+                <u>Frontend Software Engineer, Ikigai Labs</u>
+              </b>
+              <span className="text-right fa-pull-right">
+                May 2022 to Present
+              </span>
+              <li>
+                Built new product features using React, and enhanced the front-end code using React core
+                principles, component lifecycle, hooks, and libraries like redux, redux-saga, react-pdf, and 
+                react-easy-diagram
+              </li>
+              <li>
+                Developed interactive product tours using React and ButterCMS for new users and reduced 
+                onboarding time by 40%
+              </li>
+              <li>
+                Refactored legacy code & optimized API calls, thus improving product efficiency by 25%
+              </li>
+              <li>
+                Redesigned, and modernized the company’s website thus increasing leads by 30%
+              </li>
+            </ul>
             <ul>
               <b>
                 <u>Solution Analyst, Deloitte Consulting LLP</u>
               </b>
               <span className="text-right fa-pull-right">
-                September 2021 to Present
+                September 2021 to May 2022
               </span>
               <li>
                 Developed, maintained, and enhanced the front-end code using
