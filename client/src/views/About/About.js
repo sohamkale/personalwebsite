@@ -13,7 +13,7 @@ import { Icon } from 'semantic-ui-react';
 
 import { useMediaPredicate } from "react-media-hook";
 const About = (props) => {
-    let react = 60, CSS = 50, HTML = 65, C = 65, Java = 65, JS = 65, Node = 60, Git = 65, Firebase = 70, AS = 40;
+    let angular=65, react = 70, CSS = 50, HTML = 65, C = 65, Java = 65, JS = 65, Node = 60, Git = 65, Firebase = 70, AS = 40;
     let CSharp = 60, Unity = 60, PHP = 40, Net = 50, MongoDB = 50, uipath = 60, alteryx = 45, javaEE = 45;
     const [labelCol, setLabelCol] = useState(2);
     const [progressBarCol, setProgressBarCol] = useState(10);
@@ -306,6 +306,19 @@ const About = (props) => {
                   variant="success"
                   label={`${react}%`}
                   now={react}
+                />
+              </Col>
+            </Row>
+            <div className="smallDivision"></div>
+            <Row>
+              <Col xs={labelCol} className="labelHeight">
+                Angular
+              </Col>
+              <Col xs={progressBarCol}>
+                <ProgressBar
+                  variant="success"
+                  label={`${angular}%`}
+                  now={angular}
                 />
               </Col>
             </Row>
